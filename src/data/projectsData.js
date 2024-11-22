@@ -1,5 +1,8 @@
 import one from "../assets/svg/projects/one.svg";
-
+import two from "../assets/svg/projects/two.svg";
+import three from "../assets/svg/projects/three.svg";
+import four from "../assets/svg/projects/four.svg";
+import five from "../assets/svg/projects/five.svg";
 export const projectsData = [
   {
     id: 1,
@@ -11,45 +14,45 @@ export const projectsData = [
     demo: "",
     image: one,
   },
-  // {
-  //   id: 2,
-  //   projectName: "A",
-  //   projectDesc:
-  //     "This project is a railway tracking system that allows users to obtain relevant information about train timing.",
-  //   tags: ["Django", "Tailwind CSS"],
-  //   code: "",
-  //   demo: "",
-  //   image: two,
-  // },
-  // {
-  //   id: 3,
-  //   projectName: "Weather App",
-  //   projectDesc:
-  //     "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
-  //   tags: ["Django", "CSS", "Material Ui"],
-  //   code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   image: three,
-  // },
-  // {
-  //   id: 4,
-  //   projectName: "Android Patient Tracker",
-  //   projectDesc:
-  //     "This project involves the development of an Android application for viewing and managing patient data.",
-  //   tags: ["Flutter", "Firebase"],
-  //   code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   image: four,
-  // },
-  // {
-  //   id: 5,
-  //   projectName: "E-Commerce App",
-  //   projectDesc: "A Simple E-commerce application",
-  //   tags: ["React Native", "Firebase"],
-  //   code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-  //   image: five,
-  // },
+  {
+    id: 2,
+    projectName: "Xflow",
+    projectDesc:
+      "XFlow is an ETL (Extract, Transform, Load) project that facilitates the integration and transformation of data across various sources and systems for streamlined processing and analysis.",
+    tags: ["python", "FastAPI", "Pandas"],
+    code: "",
+    demo: "",
+    image: two,
+  },
+  {
+    id: 3,
+    projectName: "Weather App",
+    projectDesc:
+      "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
+    tags: ["Django", "CSS"],
+    code: "",
+    demo: "",
+    image: three,
+  },
+  {
+    id: 4,
+    projectName: "Ar In Education",
+    projectDesc:
+      "AR in education is an application where users can scan an object and view a 3D model of it, enhancing interactive learning experiences.",
+    tags: ["unity"],
+    code: "",
+    demo: "",
+    image: four,
+  },
+  {
+    id: 5,
+    projectName: "Smart Farm Dairy",
+    projectDesc: "A Dairy where it keeps the expenses and profits of formers",
+    tags: ["python", "ReactJs", "SQL"],
+    code: "",
+    demo: "",
+    image: five,
+  },
   // // {
   // //     id: 6,
   // //     projectName: 'Uber Lite',
