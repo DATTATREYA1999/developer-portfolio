@@ -19,10 +19,10 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
-          <Route path="/blog" exact component={BlogPage} />
+          {/* <Route path="/blog" exact component={BlogPage} /> */}
           <Route path="/projects" exact component={ProjectPage} />
 
           <Redirect to="/" />

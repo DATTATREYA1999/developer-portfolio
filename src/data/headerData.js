@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
-}
+  name: "Dattatreya Gedela",
+  title: "Software Developer",
+  desciption:
+    "The sky was still, with no birds flying by. What caught her eye was the strange green hue of the clouds. It wasn’t the usual color, and she could sense something was coming. She hoped she was ready for it.",
+  resumePdf: resume,
+};
